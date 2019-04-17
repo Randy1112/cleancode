@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdd0f661-0980-4791-b68d-bf2c40a41cd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Account.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Account.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Hello.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Hello.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Math.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Math.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Product.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Product.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/ProductStoreInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/ProductStoreInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/Mock.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/Mock.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSet.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSet.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSetInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSetInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/phpunit/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/phpunit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/Store/Mock.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Store/Mock.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/Store/ResultSetInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Store/ResultSetInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Cart/MockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Cart/MockTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +296,7 @@
       <updated>1555321228629</updated>
       <workItem from="1555321230157" duration="21587000" />
       <workItem from="1555421775362" duration="1675000" />
-      <workItem from="1555425173519" duration="10661000" />
+      <workItem from="1555425173519" duration="11588000" />
     </task>
     <servers />
   </component>
@@ -329,7 +333,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33923000" />
+    <option name="totallyTimeSpent" value="34850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="24" width="1254" height="733" extended-state="0" />
