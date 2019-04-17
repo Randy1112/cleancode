@@ -1,12 +1,65 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: rakotomalala
- * Date: 2019-04-17
- * Time: 10:13
- */
+namespace Cart\Store;
 
-class Mock
+use Cart\Product;
+use Cart\ProductStoreInterface;
+use SplObjectStorage;
+use Cart\Store\ResultSetInterface;
+use Cart\Store\ResultSet;
+
+class Mock implements ProductStoreInterface
 {
-
+    /**
+     * @var SplObjectStorage
+     */
+    private $products;
+    /**
+     * Mock constructor.
+     */
+    public function __construct()
+    {
+        $this->products = new SplObjectStorage();
+    }
+    /**
+     * @inheritDoc
+     */
+    public function add(Product $product): ProductStoreInterface
+    {
+        $this->products->attach($product);
+        return $this;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function update(Product $product): ProductStoreInterface
+    {
+        $this->products->attach($product);
+        return $this;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function remove(Product $product): ProductStoreInterface
+    {
+        $this->products->detach($product);
+    }
+    /**
+     * @inheritDoc
+     */
+    public function find($id): ProductStoreInterface
+    {
+        foreach ($this->findAll() as $p) {
+            if ($p->getId() === $id) {
+                return $p;
+            }
+        }
+        return null;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function findAll(): ResultSetInterface
+    {
+        return new ResultSet($this->products);
+    }
 }

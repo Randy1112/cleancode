@@ -1,15 +1,34 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: rakotomalala
- * Date: 2019-04-17
- * Time: 14:08
- */
-
 namespace Cart\Store;
 
+use SplObjectStorage;
 
-class ResultSet
+class ResultSet implements ResultSetInterface
 {
-
+    /**
+     * @var SplObjectStorage
+     */
+    private $storage;
+    /**
+     * ResultSet constructor.
+     * @param SplObjectStorage $storage
+     */
+    public function __construct(SplObjectStorage $storage)
+    {
+        $this->storage = $storage;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function count()
+    {
+        return $this->storage->count();
+    }
+    /**
+     * @inheritDoc
+     */
+    public function getIterator(): Iterator
+    {
+        return $this->storage;
+    }
 }

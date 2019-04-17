@@ -1,12 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: rakotomalala
- * Date: 2019-04-17
- * Time: 11:34
- */
-
-class ProductStoreTest
+namespace Cart;
+use Cart\Store\Mock;
+use PHPUnit\Framework\TestCase;
+class MockTest extends TestCase
 {
-
+    /**
+     * @var ProductStoreInterface
+     */
+    private $store;
+    /**
+     * @inheritDoc
+     */
+    public function setUp(): void
+    {
+        $this->store = new Mock();
+    }
+    public function testConstructor()
+    {
+        $this->assertCount(0, $this->store->findAll());
+    }
 }
