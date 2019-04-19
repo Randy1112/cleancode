@@ -2,22 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdd0f661-0980-4791-b68d-bf2c40a41cd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Account.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Account.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Hello.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Hello.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Math.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/Math.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Aston/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Product.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Product.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/ProductStoreInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/ProductStoreInterface.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/Mock.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/Mock.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSet.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSet.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSetInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSetInterface.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/Store/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/Cart/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/phpunit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/phpunit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cart/Store/MySQL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Cart/MySQLTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cleancode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cleancode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.css/nv.d3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.css/octicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.icons/file-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.icons/file-directory.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/nv.d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/.js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Account.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Account.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Hello.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/Math.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Aston/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Product.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/ProductStoreInterface.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/Mock.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSet.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/ResultSetInterface.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/Store/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Cart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Hello.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/Math.php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/phpunit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart/Store/Mock.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Store/Mock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Cart/MockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Cart/MockTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,32 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Aston/MathTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#114#145#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cart/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1101">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="299">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -64,8 +74,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="20">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/phpunit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/phpmd.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,46 +122,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cart/Store/Mock.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cart/Store/ResultSet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cart/Store/ResultSetInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Cart/MockTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="615">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
-                <element signature="e#22#42#0#PHP" expanded="true" />
+                <element signature="e#29#46#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cart/Store/MySQL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Cart/MySQLTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+              <folding>
+                <element signature="e#113#134#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cart/ProductStoreInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="405">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -137,25 +171,31 @@
       <list>
         <option value="$PROJECT_DIR$/src/Aston/Hello.php" />
         <option value="$PROJECT_DIR$/tests/Aston/HelloTest.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/Aston/BankTest.php" />
         <option value="$PROJECT_DIR$/tests/Aston/AccountTest.php" />
         <option value="$PROJECT_DIR$/src/Aston/Account.php" />
         <option value="$PROJECT_DIR$/tests/Aston/MathTest.php" />
         <option value="$PROJECT_DIR$/src/Aston/Math.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Cart/Product.php" />
         <option value="$PROJECT_DIR$/src/Cart/StoreInterface.php" />
         <option value="$PROJECT_DIR$/tests/Cart/ProductStoreTest.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/tests/Cart/MockTest.php" />
-        <option value="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" />
-        <option value="$PROJECT_DIR$/src/Cart/Store/Mock.php" />
-        <option value="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" />
         <option value="$PROJECT_DIR$/src/Cart/Store/ResultSetInterface.php" />
+        <option value="$PROJECT_DIR$/src/Cart/Store/ResultSet.php" />
+        <option value="$PROJECT_DIR$/src/Cart/ProductStoreInterface.php" />
+        <option value="$PROJECT_DIR$/src/Cart/Product.php" />
+        <option value="$PROJECT_DIR$/tests/Cart/MockTest.php" />
+        <option value="$PROJECT_DIR$/src/Cart/Store/Mock.php" />
+        <option value="$PROJECT_DIR$/src/Cart/Store/MySQL.php" />
+        <option value="$PROJECT_DIR$/tests/Cart/MySQLTest.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/phpdox.xml" />
+        <option value="$PROJECT_DIR$/build/phpmd.xml" />
+        <option value="$PROJECT_DIR$/build/phpunit.xml" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
       </list>
     </option>
   </component>
@@ -191,6 +231,34 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
+      <path value="$PROJECT_DIR$/vendor/theseer/phpdox" />
+      <path value="$PROJECT_DIR$/vendor/theseer/fxsl" />
+      <path value="$PROJECT_DIR$/vendor/theseer/directoryscanner" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/phploc/phploc" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/vendor/phing/phing" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/finder-facade" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/phpcpd" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/php-coveralls/php-coveralls" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -215,20 +283,7 @@
             <path>
               <item name="cleancode" type="b2602c69:ProjectViewProjectNode" />
               <item name="cleancode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleancode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleancode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cleancode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cleancode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cleancode" type="b2602c69:ProjectViewProjectNode" />
@@ -296,29 +351,12 @@
       <updated>1555321228629</updated>
       <workItem from="1555321230157" duration="21587000" />
       <workItem from="1555421775362" duration="1675000" />
-      <workItem from="1555425173519" duration="11588000" />
+      <workItem from="1555425173519" duration="19813000" />
+      <workItem from="1555663687880" duration="1245000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PHPUnit - 2019.04.16 at 10h 34m 38s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHPUnit - 2019.04.16 at 10h 34m 59s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHPUnit - 2019.04.16 at 10h 35m 35s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHPUnit - 2019.04.16 at 11h 48m 31s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHPUnit - 2019.04.16 at 11h 57m 55s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHPUnit - 2019.04.16 at 12h 03m 59s.xml">
-      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="PHPUnit - 2019.04.16 at 12h 04m 39s.xml">
       <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -331,19 +369,38 @@
     <history-entry file="PHPUnit - 2019.04.16 at 16h 50m 42s.xml">
       <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 44m 00s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 44m 37s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 48m 36s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 53m 05s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 56m 00s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHPUnit - 2019.04.17 at 16h 56m 26s.xml">
+      <configuration name="PHPUnit" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34850000" />
+    <option name="totallyTimeSpent" value="44320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="24" width="1254" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19389439" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19719473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917492" weight="0.61778474" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917492" weight="0.3775351" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,8 +409,8 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5959438" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5008251" side_tool="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.72359735" visible="true" weight="0.15756631" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.27640265" side_tool="true" weight="0.29485178" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,13 +446,6 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Aston/HelloTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -430,23 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="121" selection-start-line="2" selection-start-column="121" selection-end-line="2" selection-end-column="121" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aston/Math.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -471,27 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cart/ProductStoreInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cart/Store/Mock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cart/Store/ResultSet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cart/Store/ResultSetInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -499,34 +511,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cart/Store/ResultSet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cart/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Cart/MockTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="29">
+          <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
           <folding>
             <element signature="e#22#42#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cart/Product.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1101">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="4065">
+          <caret line="271" column="10" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/phpdox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/phpmd.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cart/Store/Mock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#29#46#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cart/Store/MySQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Cart/MySQLTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#113#134#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cart/ProductStoreInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="299">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -31,6 +31,22 @@ class Product
     private $price;
 
     /**
+     * Product constructor.
+     * @param mixed $id
+     * @param string $name
+     * @param string $description
+     * @param float $price
+     */
+    public function __construct($id, string $name, float $price, string $description = '')
+    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->description = $description;
+        $this->price = $price;
+    }
+
+
+    /**
      * @return mixed
      */
     public function getId()

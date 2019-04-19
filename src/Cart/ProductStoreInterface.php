@@ -22,9 +22,9 @@ interface ProductStoreInterface
     public function remove(Product $product): ProductStoreInterface;
     /**
      * @param $id
-     * @return ProductStoreInterface
+     * @return Product|null
      */
-    public function find($id): ProductStoreInterface;
+    public function find($id): ?Product;
     /**
      * @return Product[]
      */

@@ -27,7 +27,7 @@ class ResultSet implements ResultSetInterface
     /**
      * @inheritDoc
      */
-    public function getIterator(): Iterator
+    public function getIterator()
     {
         return $this->storage;
     }

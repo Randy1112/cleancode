@@ -42,11 +42,12 @@ class Mock implements ProductStoreInterface
     public function remove(Product $product): ProductStoreInterface
     {
         $this->products->detach($product);
+        return $this;
     }
     /**
      * @inheritDoc
      */
-    public function find($id): ProductStoreInterface
+    public function find($id): ?Product
     {
         foreach ($this->findAll() as $p) {
             if ($p->getId() === $id) {
